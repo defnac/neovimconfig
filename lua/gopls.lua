@@ -1,6 +1,6 @@
 -- Require LSP configuration from the pluging so we can attach GOPLS to it
-lspconfig = require "lspconfig"
-util = require "lspconfig/util"
+local lspconfig = require "lspconfig"
+local util = require "lspconfig/util"
 
 lspconfig.gopls.setup {
 	cmd = { "gopls", "serve"},
