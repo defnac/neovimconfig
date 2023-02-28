@@ -16,13 +16,20 @@ cmp.setup({
 		{ name = 'buffer', keyword_legnth = 2 },
 		{ name = 'vsnip', keyword_legnth = 2 },
 	},
+	-- Snippet engine:
+	snippet = {
+      	-- REQUIRED - you must specify a snippet engine
+      	expand = function(args)
+        	vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+      		end,
+    	},
 
 	-- Window for styling
 	window =  {
 		completion = cmp.config.window.bordered(),
 		documentation = cmp.config.window.bordered(),
 	},
-	
+
 	-- formatting
 	formatting = {
 		fields = {'menu', 'abbr', 'kind'},

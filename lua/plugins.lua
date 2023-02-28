@@ -1,5 +1,6 @@
 return require('packer').startup(function(use)
 	-- Configuration is going here
+	-- This is for lsp:
 	use 'wbthomason/packer.nvim'
 	use 'williamboman/mason.nvim'
 	use 'williamboman/mason-lspconfig.nvim'
