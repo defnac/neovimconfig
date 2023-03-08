@@ -6,6 +6,9 @@ return require('packer').startup(function(use)
 	use 'williamboman/mason-lspconfig.nvim'
 	use 'neovim/nvim-lspconfig'
 
+	-- This is for DAP (Debugging)
+	use 'mfussenegger/nvim-dap'
+
 	-- Plugins for code completion
 	use 'hrsh7th/nvim-cmp'
 	use 'hrsh7th/cmp-nvim-lsp'
@@ -15,7 +18,6 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/vim-vsnip'
-	
 	-- Nvimtree for file exploring
 	use {
 		'nvim-tree/nvim-tree.lua',
