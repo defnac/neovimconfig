@@ -149,10 +149,10 @@ _G.packer_plugins = {
     path = "/home/defnac/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
-  ["ofirkai.nvim"] = {
+  ["onedark.nvim"] = {
     loaded = true,
-    path = "/home/defnac/.local/share/nvim/site/pack/packer/start/ofirkai.nvim",
-    url = "https://github.com/ofirgall/ofirkai.nvim"
+    path = "/home/defnac/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

@@ -26,8 +26,8 @@ return require('packer').startup(function(use)
 		}
 	}
 
-	-- Monokai theme that I like
-	use 'ofirgall/ofirkai.nvim'
+	-- Theme
+	use 'navarasu/onedark.nvim'
 
 	-- Treesitter
  	use {
